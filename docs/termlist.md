@@ -1,4 +1,8 @@
-# Audubon Core Term List
+---
+layout: page
+title: Audubon Core Term List
+permalink: /terms
+---
 
 For introductory material, see the **[Audubon
 Core Introduction](introduction.md)** and **[Audubon Core
@@ -191,172 +195,174 @@ required values are strings or URIs.
 
 **Management Vocabulary**
 
-| [dcterms:available](#dcterms_available) |
-| [ac:commenter](#ac_commenter) |
-| [ac:commenterLiteral](#ac_commenterLiteral) |
-| [ac:comments](#ac_comments) |
-| [ac:hasServiceAccessPoint](#ac_hasServiceAccessPoint) |
-| [dcterms:identifier](#dcterms_identifier) |
-| [xmp:MetadataDate](#xmp_MetadataDate) |
-| [ac:metadataLanguage](#ac_metadataLanguage) |
-| [ac:metadataLanguageLiteral](#ac_metadataLanguageLiteral) |
-| [dcterms:modified](#dcterms_modified) |
-| [ac:providerManagedID](#ac_providerManagedID) |
-| [xmp:Rating](#xmp_Rating) |
-| [ac:reviewer](#ac_reviewer) |
-| [ac:reviewerComments](#ac_reviewerComments) |
-| [ac:reviewerLiteral](#ac_reviewerLiteral) |
-| [ac:subtype](#ac_subtype) |
-| [ac:subtypeLiteral](#ac_subtypeLiteral) |
-| [dcterms:title](#dcterms_title) |
-| [dc:type](#dc_type) |
-| [dcterms:type](#dcterms_type) |
+**Management Vocabulary**
+
+[dcterms:available](#dcterms_available) |
+[ac:commenter](#ac_commenter) |
+[ac:commenterLiteral](#ac_commenterLiteral) |
+[ac:comments](#ac_comments) |
+[ac:hasServiceAccessPoint](#ac_hasServiceAccessPoint) |
+[dcterms:identifier](#dcterms_identifier) |
+[xmp:MetadataDate](#xmp_MetadataDate) |
+[ac:metadataLanguage](#ac_metadataLanguage) |
+[ac:metadataLanguageLiteral](#ac_metadataLanguageLiteral) |
+[dcterms:modified](#dcterms_modified) |
+[ac:providerManagedID](#ac_providerManagedID) |
+[xmp:Rating](#xmp_Rating) |
+[ac:reviewer](#ac_reviewer) |
+[ac:reviewerComments](#ac_reviewerComments) |
+[ac:reviewerLiteral](#ac_reviewerLiteral) |
+[ac:subtype](#ac_subtype) |
+[ac:subtypeLiteral](#ac_subtypeLiteral) |
+[dcterms:title](#dcterms_title) |
+[dc:type](#dc_type) |
+[dcterms:type](#dcterms_type)
 
 **Attribution Vocabulary**
 
-| [ac:attributionLinkURL](#ac_attributionLinkURL) |
-| [ac:attributionLogoURL](#ac_attributionLogoURL) |
-| [photoshop:Credit](#photoshop_Credit) |
-| [ac:fundingAttribution](#ac_fundingAttribution) |
-| [ac:licenseLogoURL](#ac_licenseLogoURL) |
-| [xmpRights:Owner](#xmpRights_Owner) |
-| [dc:rights](#dc_rights) |
-| [dcterms:rights](#dcterms_rights) |
-| [dc:source](#dc_source) |
-| [dcterms:source](#dcterms_source) |
-| [xmpRights:UsageTerms](#xmpRights_UsageTerms) |
-| [xmpRights:WebStatement](#xmpRights_WebStatement) |
+[ac:attributionLinkURL](#ac_attributionLinkURL) |
+[ac:attributionLogoURL](#ac_attributionLogoURL) |
+[photoshop:Credit](#photoshop_Credit) |
+[ac:fundingAttribution](#ac_fundingAttribution) |
+[ac:licenseLogoURL](#ac_licenseLogoURL) |
+[xmpRights:Owner](#xmpRights_Owner) |
+[dc:rights](#dc_rights) |
+[dcterms:rights](#dcterms_rights) |
+[dc:source](#dc_source) |
+[dcterms:source](#dcterms_source) |
+[xmpRights:UsageTerms](#xmpRights_UsageTerms) |
+[xmpRights:WebStatement](#xmpRights_WebStatement)
 
 **Agents Vocabulary**
 
-| [dc:creator](#dc_creator) |
-| [dcterms:creator](#dcterms_creator) |
-| [ac:metadataCreator](#ac_metadataCreator) |
-| [ac:metadataCreatorLiteral](#ac_metadataCreatorLiteral) |
-| [ac:metadataProvider](#ac_metadataProvider) |
-| [ac:metadataProviderLiteral](#ac_metadataProviderLiteral) |
-| [ac:provider](#ac_provider) |
-| [ac:providerLiteral](#ac_providerLiteral) |
+[dc:creator](#dc_creator) |
+[dcterms:creator](#dcterms_creator) |
+[ac:metadataCreator](#ac_metadataCreator) |
+[ac:metadataCreatorLiteral](#ac_metadataCreatorLiteral) |
+[ac:metadataProvider](#ac_metadataProvider) |
+[ac:metadataProviderLiteral](#ac_metadataProviderLiteral) |
+[ac:provider](#ac_provider) |
+[ac:providerLiteral](#ac_providerLiteral)
 
 **Content Coverage Vocabulary**
 
-| [ac:caption](#ac_caption) |
-| [Iptc4xmpExt:CVterm](#Iptc4xmpExt_CVterm) |
-| [dcterms:description](#dcterms_description) |
-| [dc:language](#dc_language) |
-| [dcterms:language](#dcterms_language) |
-| [ac:physicalSetting](#ac_physicalSetting) |
-| [ac:subjectCategoryVocabulary](#ac_subjectCategoryVocabulary) |
-| [ac:tag](#ac_tag) |
+[ac:caption](#ac_caption) |
+[Iptc4xmpExt:CVterm](#Iptc4xmpExt_CVterm) |
+[dcterms:description](#dcterms_description) |
+[dc:language](#dc_language) |
+[dcterms:language](#dcterms_language) |
+[ac:physicalSetting](#ac_physicalSetting) |
+[ac:subjectCategoryVocabulary](#ac_subjectCategoryVocabulary) |
+[ac:tag](#ac_tag)
 
 **Geography Vocabulary**
 
-| [Iptc4xmpExt:City](#Iptc4xmpExt_City) |
-| [dwc:continent](#dwc_continent) |
-| [dwc:coordinatePrecision](#dwc_coordinatePrecision) |
-| [dwc:coordinateUncertaintyInMeters](#dwc_coordinateUncertaintyInMeters) |
-| [dwc:country](#dwc_country) |
-| [Iptc4xmpExt:CountryCode](#Iptc4xmpExt_CountryCode) |
-| [dwc:countryCode](#dwc_countryCode) |
-| [Iptc4xmpExt:CountryName](#Iptc4xmpExt_CountryName) |
-| [dwc:county](#dwc_county) |
-| [dwc:decimalLatitude](#dwc_decimalLatitude) |
-| [dwc:decimalLongitude](#dwc_decimalLongitude) |
-| [dwc:footprintSpatialFit](#dwc_footprintSpatialFit) |
-| [dwc:footprintSRS](#dwc_footprintSRS) |
-| [dwc:footprintWKT](#dwc_footprintWKT) |
-| [dwc:geodeticDatum](#dwc_geodeticDatum) |
-| [dwc:georeferencedBy](#dwc_georeferencedBy) |
-| [dwc:georeferenceProtocol](#dwc_georeferenceProtocol) |
-| [dwc:georeferenceRemarks](#dwc_georeferenceRemarks) |
-| [dwc:georeferenceSources](#dwc_georeferenceSources) |
-| [dwc:georeferenceVerificationStatus](#dwc_georeferenceVerificationStatus) |
-| [dwc:higherGeography](#dwc_higherGeography) |
-| [dwc:higherGeographyID](#dwc_higherGeographyID) |
-| [dwc:island](#dwc_island) |
-| [dwc:islandGroup](#dwc_islandGroup) |
-| [dwc:locality](#dwc_locality) |
-| [dwc:locationAccordingTo](#dwc_locationAccordingTo) |
-| [dwc:locationID](#dwc_locationID) |
-| [dwc:locationRemarks](#dwc_locationRemarks) |
-| [Iptc4xmpExt:LocationShown](#Iptc4xmpExt_LocationShown) |
-| [dwc:maximumDepthInMeters](#dwc_maximumDepthInMeters) |
-| [dwc:maximumDistanceAboveSurfaceInMeters](#dwc_maximumDistanceAboveSurfaceInMeters) |
-| [dwc:maximumElevationInMeters](#dwc_maximumElevationInMeters) |
-| [dwc:minimumDepthInMeters](#dwc_minimumDepthInMeters) |
-| [dwc:minimumDistanceAboveSurfaceInMeters](#dwc_minimumDistanceAboveSurfaceInMeters) |
-| [dwc:minimumElevationInMeters](#dwc_minimumElevationInMeters) |
-| [dwc:municipality](#dwc_municipality) |
-| [dwc:pointRadiusSpatialFit](#dwc_pointRadiusSpatialFit) |
-| [Iptc4xmpExt:ProvinceState](#Iptc4xmpExt_ProvinceState) |
-| [dwc:stateProvince](#dwc_stateProvince) |
-| [Iptc4xmpExt:Sublocation](#Iptc4xmpExt_Sublocation) |
-| [dwc:verbatimCoordinates](#dwc_verbatimCoordinates) |
-| [dwc:verbatimCoordinateSystem](#dwc_verbatimCoordinateSystem) |
-| [dwc:verbatimDepth](#dwc_verbatimDepth) |
-| [dwc:verbatimElevation](#dwc_verbatimElevation) |
-| [dwc:verbatimLatitude](#dwc_verbatimLatitude) |
-| [dwc:verbatimLocality](#dwc_verbatimLocality) |
-| [dwc:verbatimLongitude](#dwc_verbatimLongitude) |
-| [dwc:verbatimSRS](#dwc_verbatimSRS) |
-| [dwc:waterBody](#dwc_waterBody) |
-| [Iptc4xmpExt:WorldRegion](#Iptc4xmpExt_WorldRegion) |
+[Iptc4xmpExt:City](#Iptc4xmpExt_City) |
+[dwc:continent](#dwc_continent) |
+[dwc:coordinatePrecision](#dwc_coordinatePrecision) |
+[dwc:coordinateUncertaintyInMeters](#dwc_coordinateUncertaintyInMeters) |
+[dwc:country](#dwc_country) |
+[Iptc4xmpExt:CountryCode](#Iptc4xmpExt_CountryCode) |
+[dwc:countryCode](#dwc_countryCode) |
+[Iptc4xmpExt:CountryName](#Iptc4xmpExt_CountryName) |
+[dwc:county](#dwc_county) |
+[dwc:decimalLatitude](#dwc_decimalLatitude) |
+[dwc:decimalLongitude](#dwc_decimalLongitude) |
+[dwc:footprintSpatialFit](#dwc_footprintSpatialFit) |
+[dwc:footprintSRS](#dwc_footprintSRS) |
+[dwc:footprintWKT](#dwc_footprintWKT) |
+[dwc:geodeticDatum](#dwc_geodeticDatum) |
+[dwc:georeferencedBy](#dwc_georeferencedBy) |
+[dwc:georeferenceProtocol](#dwc_georeferenceProtocol) |
+[dwc:georeferenceRemarks](#dwc_georeferenceRemarks) |
+[dwc:georeferenceSources](#dwc_georeferenceSources) |
+[dwc:georeferenceVerificationStatus](#dwc_georeferenceVerificationStatus) |
+[dwc:higherGeography](#dwc_higherGeography) |
+[dwc:higherGeographyID](#dwc_higherGeographyID) |
+[dwc:island](#dwc_island) |
+[dwc:islandGroup](#dwc_islandGroup) |
+[dwc:locality](#dwc_locality) |
+[dwc:locationAccordingTo](#dwc_locationAccordingTo) |
+[dwc:locationID](#dwc_locationID) |
+[dwc:locationRemarks](#dwc_locationRemarks) |
+[Iptc4xmpExt:LocationShown](#Iptc4xmpExt_LocationShown) |
+[dwc:maximumDepthInMeters](#dwc_maximumDepthInMeters) |
+[dwc:maximumDistanceAboveSurfaceInMeters](#dwc_maximumDistanceAboveSurfaceInMeters) |
+[dwc:maximumElevationInMeters](#dwc_maximumElevationInMeters) |
+[dwc:minimumDepthInMeters](#dwc_minimumDepthInMeters) |
+[dwc:minimumDistanceAboveSurfaceInMeters](#dwc_minimumDistanceAboveSurfaceInMeters) |
+[dwc:minimumElevationInMeters](#dwc_minimumElevationInMeters) |
+[dwc:municipality](#dwc_municipality) |
+[dwc:pointRadiusSpatialFit](#dwc_pointRadiusSpatialFit) |
+[Iptc4xmpExt:ProvinceState](#Iptc4xmpExt_ProvinceState) |
+[dwc:stateProvince](#dwc_stateProvince) |
+[Iptc4xmpExt:Sublocation](#Iptc4xmpExt_Sublocation) |
+[dwc:verbatimCoordinates](#dwc_verbatimCoordinates) |
+[dwc:verbatimCoordinateSystem](#dwc_verbatimCoordinateSystem) |
+[dwc:verbatimDepth](#dwc_verbatimDepth) |
+[dwc:verbatimElevation](#dwc_verbatimElevation) |
+[dwc:verbatimLatitude](#dwc_verbatimLatitude) |
+[dwc:verbatimLocality](#dwc_verbatimLocality) |
+[dwc:verbatimLongitude](#dwc_verbatimLongitude) |
+[dwc:verbatimSRS](#dwc_verbatimSRS) |
+[dwc:waterBody](#dwc_waterBody) |
+[Iptc4xmpExt:WorldRegion](#Iptc4xmpExt_WorldRegion)
 
 **Temporal Coverage Vocabulary**
 
-| [xmp:CreateDate](#xmp_CreateDate) |
-| [dcterms:temporal](#dcterms_temporal) |
-| [ac:timeOfDay](#ac_timeOfDay) |
+[xmp:CreateDate](#xmp_CreateDate) |
+[dcterms:temporal](#dcterms_temporal) |
+[ac:timeOfDay](#ac_timeOfDay)
 
 **Taxonomic Coverage Vocabulary**
 
-| [dwc:dateIdentified](#dwc_dateIdentified) |
-| [dwc:identificationQualifier](#dwc_identificationQualifier) |
-| [dwc:identifiedBy](#dwc_identifiedBy) |
-| [dwc:lifeStage](#dwc_lifeStage) |
-| [dwc:nameAccordingTo](#dwc_nameAccordingTo) |
-| [ac:otherScientificName](#ac_otherScientificName) |
-| [dwc:preparations](#dwc_preparations) |
-| [dwc:scientificName](#dwc_scientificName) |
-| [dwc:scientificNameID](#dwc_scientificNameID) |
-| [dwc:sex](#dwc_sex) |
-| [ac:subjectOrientation](#ac_subjectOrientation) |
-| [ac:subjectPart](#ac_subjectPart) |
-| [ac:taxonCount](#ac_taxonCount) |
-| [ac:taxonCoverage](#ac_taxonCoverage) |
-| [dwc:vernacularName](#dwc_vernacularName) |
+[dwc:dateIdentified](#dwc_dateIdentified) |
+[dwc:identificationQualifier](#dwc_identificationQualifier) |
+[dwc:identifiedBy](#dwc_identifiedBy) |
+[dwc:lifeStage](#dwc_lifeStage) |
+[dwc:nameAccordingTo](#dwc_nameAccordingTo) |
+[ac:otherScientificName](#ac_otherScientificName) |
+[dwc:preparations](#dwc_preparations) |
+[dwc:scientificName](#dwc_scientificName) |
+[dwc:scientificNameID](#dwc_scientificNameID) |
+[dwc:sex](#dwc_sex) |
+[ac:subjectOrientation](#ac_subjectOrientation) |
+[ac:subjectPart](#ac_subjectPart) |
+[ac:taxonCount](#ac_taxonCount) |
+[ac:taxonCoverage](#ac_taxonCoverage) |
+[dwc:vernacularName](#dwc_vernacularName)
 
 **Resource Creation Vocabulary**
 
-| [ac:captureDevice](#ac_captureDevice) |
-| [ac:digitizationDate](#ac_digitizationDate) |
-| [Iptc4xmpExt:LocationCreated](#Iptc4xmpExt_LocationCreated) |
-| [ac:resourceCreationTechnique](#ac_resourceCreationTechnique) |
+[ac:captureDevice](#ac_captureDevice) |
+[ac:digitizationDate](#ac_digitizationDate) |
+[Iptc4xmpExt:LocationCreated](#Iptc4xmpExt_LocationCreated) |
+[ac:resourceCreationTechnique](#ac_resourceCreationTechnique)
 
 **Related Resources Vocabulary**
 
-| [ac:associatedObservationReference](#ac_associatedObservationReference) |
-| [ac:associatedSpecimenReference](#ac_associatedSpecimenReference) |
-| [ac:derivedFrom](#ac_derivedFrom) |
-| [ac:IDofContainingCollection](#ac_IDofContainingCollection) |
-| [ac:providerID](#ac_providerID) |
-| [ac:relatedResourceID](#ac_relatedResourceID) |
+[ac:associatedObservationReference](#ac_associatedObservationReference) |
+[ac:associatedSpecimenReference](#ac_associatedSpecimenReference) |
+[ac:derivedFrom](#ac_derivedFrom) |
+[ac:IDofContainingCollection](#ac_IDofContainingCollection) |
+[ac:providerID](#ac_providerID) |
+[ac:relatedResourceID](#ac_relatedResourceID)
 
 **Service Access Point Vocabulary**
 
-| [ac:accessURI](#ac_accessURI) |
-| [dc:format](#dc_format) |
-| [dcterms:format](#dcterms_format) |
-| [ac:furtherInformationURL](#ac_furtherInformationURL) |
-| [ac:hashFunction](#ac_hashFunction) |
-| [ac:hashValue](#ac_hashValue) |
-| [ac:licensingException](#ac_licensingException) |
-| [exif:PixelXDimension](#exif_PixelXDimension) |
-| [exif:PixelYDimension](#exif_PixelYDimension) |
-| [ac:serviceExpectation](#ac_serviceExpectation) |
-| [ac:variant](#ac_variant) |
-| [ac:variantDescription](#ac_variantDescription) |
-| [ac:variantLiteral](#ac_variantLiteral) |
+[ac:accessURI](#ac_accessURI) |
+[dc:format](#dc_format) |
+[dcterms:format](#dcterms_format) |
+[ac:furtherInformationURL](#ac_furtherInformationURL) |
+[ac:hashFunction](#ac_hashFunction) |
+[ac:hashValue](#ac_hashValue) |
+[ac:licensingException](#ac_licensingException) |
+[exif:PixelXDimension](#exif_PixelXDimension) |
+[exif:PixelYDimension](#exif_PixelYDimension) |
+[ac:serviceExpectation](#ac_serviceExpectation) |
+[ac:variant](#ac_variant) |
+[ac:variantDescription](#ac_variantDescription) |
+[ac:variantLiteral](#ac_variantLiteral)
 
 ### 6.2 Index By Label
 
@@ -364,157 +370,157 @@ required values are strings or URIs.
 
 **Management Vocabulary**
 
-| [Commenter](#ac_commenter) |
-| [Comments](#ac_comments) |
-| [Date Available](#dcterms_available) |
-| [Identifier](#dcterms_identifier) |
-| [Metadata Date](#xmp_MetadataDate) |
-| [Metadata Language](#ac_metadataLanguage) |
-| [Modified](#dcterms_modified) |
-| [Provider-managed ID](#ac_providerManagedID) |
-| [Rating](#xmp_Rating) |
-| [Reviewer](#ac_reviewer) |
-| [Reviewer Comments](#ac_reviewerComments) |
-| [Service Access Point](#ac_hasServiceAccessPoint) |
-| [Subtype](#ac_subtype) |
-| [Title](#dcterms_title) |
-| [Type](#dc_type) |
+[Commenter](#ac_commenter) |
+[Comments](#ac_comments) |
+[Date Available](#dcterms_available) |
+[Identifier](#dcterms_identifier) |
+[Metadata Date](#xmp_MetadataDate) |
+[Metadata Language](#ac_metadataLanguage) |
+[Modified](#dcterms_modified) |
+[Provider-managed ID](#ac_providerManagedID) |
+[Rating](#xmp_Rating) |
+[Reviewer](#ac_reviewer) |
+[Reviewer Comments](#ac_reviewerComments) |
+[Service Access Point](#ac_hasServiceAccessPoint) |
+[Subtype](#ac_subtype) |
+[Title](#dcterms_title) |
+[Type](#dc_type)
 
 **Attribution Vocabulary**
 
-| [Attribution Link URL](#ac_attributionLinkURL) |
-| [Attribution URL](#ac_attributionLogoURL) |
-| [Copyright Owner](#xmpRights_Owner) |
-| [Copyright Statement](#dc_rights) |
-| [Credit](#photoshop_Credit) |
-| [Funding](#ac_fundingAttribution) |
-| [License Logo URL](#ac_licenseLogoURL) |
-| [License Terms](#xmpRights_UsageTerms) |
-| [License URL](#xmpRights_WebStatement) |
-| [Published Source](#dc_source) |
+[Attribution Link URL](#ac_attributionLinkURL) |
+[Attribution URL](#ac_attributionLogoURL) |
+[Copyright Owner](#xmpRights_Owner) |
+[Copyright Statement](#dc_rights) |
+[Credit](#photoshop_Credit) |
+[Funding](#ac_fundingAttribution) |
+[License Logo URL](#ac_licenseLogoURL) |
+[License Terms](#xmpRights_UsageTerms) |
+[License URL](#xmpRights_WebStatement) |
+[Published Source](#dc_source)
 
 **Agents Vocabulary**
 
-| [Creator](#dc_creator) |
-| [Metadata Creator](#ac_metadataCreator) |
-| [Metadata Provider](#ac_metadataProvider) |
-| [Provider](#ac_provider) |
+[Creator](#dc_creator) |
+[Metadata Creator](#ac_metadataCreator) |
+[Metadata Provider](#ac_metadataProvider) |
+[Provider](#ac_provider)
 
 **Content Coverage Vocabulary**
 
-| [Caption](#ac_caption) |
-| [Description](#dcterms_description) |
-| [Language](#dc_language) |
-| [Physical Setting](#ac_physicalSetting) |
-| [Subject Category](#Iptc4xmpExt_CVterm) |
-| [Subject Category Vocabulary](#ac_subjectCategoryVocabulary) |
-| [Tag](#ac_tag) |
+[Caption](#ac_caption) |
+[Description](#dcterms_description) |
+[Language](#dc_language) |
+[Physical Setting](#ac_physicalSetting) |
+[Subject Category](#Iptc4xmpExt_CVterm) |
+[Subject Category Vocabulary](#ac_subjectCategoryVocabulary) |
+[Tag](#ac_tag)
 
 **Geography Vocabulary**
 
-| [City or Place Name](#Iptc4xmpExt_City) |
-| [Continent](#dwc_continent) |
-| [Coordinate Precision](#dwc_coordinatePrecision) |
-| [Coordinate Uncertainty In Meters](#dwc_coordinateUncertaintyInMeters) |
-| [Country](#dwc_country) |
-| [Country Code](#Iptc4xmpExt_CountryCode) |
-| [Country Name](#Iptc4xmpExt_CountryName) |
-| [County](#dwc_county) |
-| [Decimal Latitude](#dwc_decimalLatitude) |
-| [Decimal Longitude](#dwc_decimalLongitude) |
-| [Footprint Spatial Fit](#dwc_footprintSpatialFit) |
-| [Footprint SRS](#dwc_footprintSRS) |
-| [Footprint WKT](#dwc_footprintWKT) |
-| [Geodetic Datum](#dwc_geodeticDatum) |
-| [Georeference Protocol](#dwc_georeferenceProtocol) |
-| [Georeference Remarks](#dwc_georeferenceRemarks) |
-| [Georeference Sources](#dwc_georeferenceSources) |
-| [Georeference Verification Status](#dwc_georeferenceVerificationStatus) |
-| [Georeferenced By](#dwc_georeferencedBy) |
-| [Higher Geography](#dwc_higherGeography) |
-| [Higher Geography ID](#dwc_higherGeographyID) |
-| [Island](#dwc_island) |
-| [Island Group](#dwc_islandGroup) |
-| [Locality](#dwc_locality) |
-| [Location According To](#dwc_locationAccordingTo) |
-| [Location ID](#dwc_locationID) |
-| [Location Remarks](#dwc_locationRemarks) |
-| [Location Shown](#Iptc4xmpExt_LocationShown) |
-| [Maximum Depth In Meters](#dwc_maximumDepthInMeters) |
-| [Maximum Distance Above Surface In Meters](#dwc_maximumDistanceAboveSurfaceInMeters) |
-| [Maximum Elevation In Meters](#dwc_maximumElevationInMeters) |
-| [Minimum Depth In Meters](#dwc_minimumDepthInMeters) |
-| [Minimum Distance Above Surface In Meters](#dwc_minimumDistanceAboveSurfaceInMeters) |
-| [Minimum Elevation In Meters](#dwc_minimumElevationInMeters) |
-| [Municipality](#dwc_municipality) |
-| [Point Radius Spatial Fit](#dwc_pointRadiusSpatialFit) |
-| [Province or State](#Iptc4xmpExt_ProvinceState) |
-| [State Province](#dwc_stateProvince) |
-| [Sublocation](#Iptc4xmpExt_Sublocation) |
-| [Verbatim Coordinate System](#dwc_verbatimCoordinateSystem) |
-| [Verbatim Coordinates](#dwc_verbatimCoordinates) |
-| [Verbatim Depth](#dwc_verbatimDepth) |
-| [Verbatim Elevation](#dwc_verbatimElevation) |
-| [Verbatim Latitude](#dwc_verbatimLatitude) |
-| [Verbatim Locality](#dwc_verbatimLocality) |
-| [Verbatim Longitude](#dwc_verbatimLongitude) |
-| [Verbatim SRS](#dwc_verbatimSRS) |
-| [Water Body](#dwc_waterBody) |
-| [World Region](#Iptc4xmpExt_WorldRegion) |
+[City or Place Name](#Iptc4xmpExt_City) |
+[Continent](#dwc_continent) |
+[Coordinate Precision](#dwc_coordinatePrecision) |
+[Coordinate Uncertainty In Meters](#dwc_coordinateUncertaintyInMeters) |
+[Country](#dwc_country) |
+[Country Code](#Iptc4xmpExt_CountryCode) |
+[Country Name](#Iptc4xmpExt_CountryName) |
+[County](#dwc_county) |
+[Decimal Latitude](#dwc_decimalLatitude) |
+[Decimal Longitude](#dwc_decimalLongitude) |
+[Footprint Spatial Fit](#dwc_footprintSpatialFit) |
+[Footprint SRS](#dwc_footprintSRS) |
+[Footprint WKT](#dwc_footprintWKT) |
+[Geodetic Datum](#dwc_geodeticDatum) |
+[Georeference Protocol](#dwc_georeferenceProtocol) |
+[Georeference Remarks](#dwc_georeferenceRemarks) |
+[Georeference Sources](#dwc_georeferenceSources) |
+[Georeference Verification Status](#dwc_georeferenceVerificationStatus) |
+[Georeferenced By](#dwc_georeferencedBy) |
+[Higher Geography](#dwc_higherGeography) |
+[Higher Geography ID](#dwc_higherGeographyID) |
+[Island](#dwc_island) |
+[Island Group](#dwc_islandGroup) |
+[Locality](#dwc_locality) |
+[Location According To](#dwc_locationAccordingTo) |
+[Location ID](#dwc_locationID) |
+[Location Remarks](#dwc_locationRemarks) |
+[Location Shown](#Iptc4xmpExt_LocationShown) |
+[Maximum Depth In Meters](#dwc_maximumDepthInMeters) |
+[Maximum Distance Above Surface In Meters](#dwc_maximumDistanceAboveSurfaceInMeters) |
+[Maximum Elevation In Meters](#dwc_maximumElevationInMeters) |
+[Minimum Depth In Meters](#dwc_minimumDepthInMeters) |
+[Minimum Distance Above Surface In Meters](#dwc_minimumDistanceAboveSurfaceInMeters) |
+[Minimum Elevation In Meters](#dwc_minimumElevationInMeters) |
+[Municipality](#dwc_municipality) |
+[Point Radius Spatial Fit](#dwc_pointRadiusSpatialFit) |
+[Province or State](#Iptc4xmpExt_ProvinceState) |
+[State Province](#dwc_stateProvince) |
+[Sublocation](#Iptc4xmpExt_Sublocation) |
+[Verbatim Coordinate System](#dwc_verbatimCoordinateSystem) |
+[Verbatim Coordinates](#dwc_verbatimCoordinates) |
+[Verbatim Depth](#dwc_verbatimDepth) |
+[Verbatim Elevation](#dwc_verbatimElevation) |
+[Verbatim Latitude](#dwc_verbatimLatitude) |
+[Verbatim Locality](#dwc_verbatimLocality) |
+[Verbatim Longitude](#dwc_verbatimLongitude) |
+[Verbatim SRS](#dwc_verbatimSRS) |
+[Water Body](#dwc_waterBody) |
+[World Region](#Iptc4xmpExt_WorldRegion)
 
 **Temporal Coverage Vocabulary**
 
-| [Original Date and Time](#xmp_CreateDate) |
-| [Temporal Coverage](#dcterms_temporal) |
-| [Time of Day](#ac_timeOfDay) |
+[Original Date and Time](#xmp_CreateDate) |
+[Temporal Coverage](#dcterms_temporal) |
+[Time of Day](#ac_timeOfDay)
 
 **Taxonomic Coverage Vocabulary**
 
-| [Common Name](#dwc_vernacularName) |
-| [Date Identified](#dwc_dateIdentified) |
-| [Identification Qualifier](#dwc_identificationQualifier) |
-| [Identified By](#dwc_identifiedBy) |
-| [Name According To](#dwc_nameAccordingTo) |
-| [Other Scientific Name](#ac_otherScientificName) |
-| [Scientific Name ID](#dwc_scientificNameID) |
-| [Scientific Taxon Name](#dwc_scientificName) |
-| [Subject Life Stage](#dwc_lifeStage) |
-| [Subject Orientation](#ac_subjectOrientation) |
-| [Subject Part](#ac_subjectPart) |
-| [Subject Preparation Technique](#dwc_preparations) |
-| [Subject Sex](#dwc_sex) |
-| [Taxon Count](#ac_taxonCount) |
-| [Taxon Coverage](#ac_taxonCoverage) |
+[Common Name](#dwc_vernacularName) |
+[Date Identified](#dwc_dateIdentified) |
+[Identification Qualifier](#dwc_identificationQualifier) |
+[Identified By](#dwc_identifiedBy) |
+[Name According To](#dwc_nameAccordingTo) |
+[Other Scientific Name](#ac_otherScientificName) |
+[Scientific Name ID](#dwc_scientificNameID) |
+[Scientific Taxon Name](#dwc_scientificName) |
+[Subject Life Stage](#dwc_lifeStage) |
+[Subject Orientation](#ac_subjectOrientation) |
+[Subject Part](#ac_subjectPart) |
+[Subject Preparation Technique](#dwc_preparations) |
+[Subject Sex](#dwc_sex) |
+[Taxon Count](#ac_taxonCount) |
+[Taxon Coverage](#ac_taxonCoverage)
 
 **Resource Creation Vocabulary**
 
-| [Capture Device](#ac_captureDevice) |
-| [Date and Time Digitized](#ac_digitizationDate) |
-| [Location Created](#Iptc4xmpExt_LocationCreated) |
-| [Resource Creation Technique](#ac_resourceCreationTechnique) |
+[Capture Device](#ac_captureDevice) |
+[Date and Time Digitized](#ac_digitizationDate) |
+[Location Created](#Iptc4xmpExt_LocationCreated) |
+[Resource Creation Technique](#ac_resourceCreationTechnique)
 
 **Related Resources Vocabulary**
 
-| [Associated Observation Reference](#ac_associatedObservationReference) |
-| [Associated Specimen Reference](#ac_associatedSpecimenReference) |
-| [Derived From](#ac_derivedFrom) |
-| [ID of Containing Collection](#ac_IDofContainingCollection) |
-| [Provider ID](#ac_providerID) |
-| [Related Resource ID](#ac_relatedResourceID) |
+[Associated Observation Reference](#ac_associatedObservationReference) |
+[Associated Specimen Reference](#ac_associatedSpecimenReference) |
+[Derived From](#ac_derivedFrom) |
+[ID of Containing Collection](#ac_IDofContainingCollection) |
+[Provider ID](#ac_providerID) |
+[Related Resource ID](#ac_relatedResourceID)
 
 **Service Access Point Vocabulary**
 
-| [Access URI](#ac_accessURI) |
-| [Format](#dc_format) |
-| [Further Information URL](#ac_furtherInformationURL) |
-| [Hash](#ac_hashValue) |
-| [Hash Function](#ac_hashFunction) |
-| [Image Height](#exif_PixelYDimension) |
-| [Image Width](#exif_PixelXDimension) |
-| [Licensing Exception Statement](#ac_licensingException) |
-| [Service Expectation](#ac_serviceExpectation) |
-| [Variant](#ac_variant) |
-| [Variant Description](#ac_variantDescription) |
+[Access URI](#ac_accessURI) |
+[Format](#dc_format) |
+[Further Information URL](#ac_furtherInformationURL) |
+[Hash](#ac_hashValue) |
+[Hash Function](#ac_hashFunction) |
+[Image Height](#exif_PixelYDimension) |
+[Image Width](#exif_PixelXDimension) |
+[Licensing Exception Statement](#ac_licensingException) |
+[Service Expectation](#ac_serviceExpectation) |
+[Variant](#ac_variant) |
+[Variant Description](#ac_variantDescription)
 
 ## 7 Vocabularies
 ### 7.1 Management Vocabulary
@@ -711,7 +717,7 @@ required values are strings or URIs.
 | Normative URI: | http://purl.org/dc/elements/1.1/rights |
 | Label: | Copyright Statement |
 | | **Layer:** 1 -- **Required:** Yes -- **Repeatable:** No |
-| Definition: | Information about rights held in and over the resource. A full-text, readable copyright statement, as required by the national legislation of the copyright holder. On collections, this applies to all contained objects, unless the object itself has a different statement. Examples: "Copyright XY 2008, all rights reserved", "© 2008 XY Museum", "Public Domain.", "Copyright unknown." Do not place just the name of the copyright holder(s) here! That belongs in a list in the xmpRights:Owner field, which should be supplied if dc:rights is not 'Public Domain', which is appropriate only if the resource is known to be not under copyright. |
+| Definition: | Information about rights held in and over the resource. A full-text, readable copyright statement, as required by the national legislation of the copyright holder. On collections, this applies to all contained objects, unless the object itself has a different statement. Examples: "Copyright XY 2008, all rights reserved", "ï¿½ 2008 XY Museum", "Public Domain.", "Copyright unknown." Do not place just the name of the copyright holder(s) here! That belongs in a list in the xmpRights:Owner field, which should be supplied if dc:rights is not 'Public Domain', which is appropriate only if the resource is known to be not under copyright. |
 | Notes: | This expresses rights over the media resource, not over the metadata text. At least one of dcterms:rights and dc:rights must be supplied but, when feasible, supplying both may make the metadata more widely useful. They must specify the same rights. In case of ambiguity, dcterms:rights prevails. |
 | | |
 | <a id="dcterms_rights"></a>**Term Name:** | **dcterms:rights** |

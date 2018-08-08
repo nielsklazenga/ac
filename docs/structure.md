@@ -1,6 +1,8 @@
-<a id="top"></a>
-
-# Audubon Core Structure
+---
+layout: page
+title: Audubon Core Structure
+permalink: /structure
+---
 
 **Title:** Audubon Core Structure
 

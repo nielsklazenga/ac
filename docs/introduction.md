@@ -1,7 +1,8 @@
-
-<a id="top"></a>
-
-# Audubon Core Introduction
+---
+layout: page
+title: Audubon Core Introduction
+permalink: /index.html
+---
 
 **Title:** Audubon Core Introduction
 
