@@ -36,23 +36,6 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 **Bibliographic citation:** Multimedia Resources Task Group. 2013. Audubon Core Structure. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/structure/
 
-## Table of Contents
-
-[1 Introduction](1-introduction)
-
-[1.1 Status of the content of this document](11-status-of-the-content-of-this-document)
-
-[2 Terminology of this specification](2-terminology-of-this-specification)
-
-[3 Multiplicity and Cardinality](3-multiplicity-and-cardinality)
-
-[3.1 Structured serializations](31-structured-serializations)
-
-[3.2 Tabular serializations](32-tabular-serializations)
-
-[4 Lists of plain text values](4-lists-of-plain-text-values)
-
-
 ## 1 Introduction
 
 This documentation describes the structure of the [TDWG](http://tdwg.org)

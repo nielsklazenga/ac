@@ -26,43 +26,6 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 **Bibliographic citation:** Multimedia Resources Task Group. 2013. Audubon Core Guide. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/guide/
 
-## Table of Contents
-
-[1 Introduction](#1-introduction)
-
-[1.1 Status of the content of this document](#11-status-of-the-content-of-this-document)
-
-[2 Summary](#2-summary)
-
-[3 Audubon Core Terms](#3-audubon-core-terms)
-
-[4 Motivation and Rationale](#4-motivation-and-rationale)
-
-[5 Existing Standards](#5-existing-standards)
-
-[6 Common Concerns with Other Biodiversity Information Standards](#6-common-concerns-with-other-biodiversity-information-standards)
-
-[7 Concerns Not Emphasized in Other Biodiversity Information Standards](#7-concerns-not-emphasized-in-other-biodiversity-information-standards)
-
-[8 Multimedia Resource Descriptions](#8-multimedia-resource-descriptions)
-
-[9 Audubon Core Records](#9-audubon-core-records)
-
-[10 Implementation and Compliance](#10-implementation-and-compliance)
-
-[11 Further Information](#11-further-information)
-
-[12 Appendix I: Glossary](#12-appendix-i-glossary)
-
-[13 Appendix II: Audubon Core Development History](#13-appendix-ii-audubon-core-development-history)
-
-[13.1 Timeline](#131-timeline)
-
-[13.2 Document revision history](#132-document-revision-history)
-
-[14 Endnotes](#14-endnotes)
-
-
 ## 1 Introduction
 
 The Audubon Core Multimedia Resources Metadata Schema (Audubon Core) is a data standard for exchanging data describing biodiversity multimedia

@@ -34,22 +34,6 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 **Bibliographic citation:** Multimedia Resources Task Group. 2013. Audubon Core Introduction. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/introduction/
 
-
-## Table of Contents
-
-[1 Introduction](#1-introduction)
-
-[1.1 Status of the content of this document](#11-status-of-the-content-of-this-document)
-
-[1.2 The scope of Audubon Core](#12-the-scope-of-audubon-core)
-
-[2 Audubon Core terms](#2-audubon-core-terms)
-
-[3 Implementations](#3-implementations)
-
-[4 References](#4-references)
-
-
 ## 1 Introduction
 
 There are four documents included in the Aububon Core Standard.  This document provides a general introduction to the Audubon Core Standard. For information about the structure of Audubon Core, see the [Audubon
