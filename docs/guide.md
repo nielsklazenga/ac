@@ -31,7 +31,7 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 The Audubon Core Multimedia Resources Metadata Schema (Audubon Core) is a data standard for exchanging data describing biodiversity multimedia
 resources and collections produced by the GBIF/TDWG joint Multimedia
 Resources Metadata Task Group (MRTG).  The standard consists of four documents.  This document is a guide to the aims and uses of the standard. The [Audubon
-Core Introduction](introduction.md) document provides a brief introduction to the Audubon Core Standard. For detailed information about the structure of Audubon Core, see the [Audubon Core Structure](structure.md) document.  For term details, see the [Audubon Core Terms List](termlist.md) document.
+Core Introduction](./) document provides a brief introduction to the Audubon Core Standard. For detailed information about the structure of Audubon Core, see the [Audubon Core Structure](structure) document.  For term details, see the [Audubon Core Terms List](terms) document.
 
 Acronyms and named institutions and projects are listed in a Glossary in
 Appendix I.

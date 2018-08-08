@@ -114,7 +114,7 @@ implementations of AC, because
 some implementations may not provide enough structure to clearly state
 the association between the members of a pair in the case of multiple
 values of each. This is a special case of the issue treated in the
-normative material on [Multiplicity and Cardinality](structure.md#3-multiplicity-and-cardinality).
+normative material on [Multiplicity and Cardinality](./structure#3-multiplicity-and-cardinality).
 
 
 ## 4 Layers
@@ -1357,7 +1357,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 
 ### 7.10 Service Access Point Vocabulary
 
-These terms are representation-dependent metadata, referring to specific digital representations of a resource (e.g., a specific resolution, quality, or format). They are used within whatever a particular AC implementation assigns to the value of hasServiceAccessPoint, whose label is simply "Service Access Point." Note that it is possible for an implementation to use syntactic conventions that avoid direct use of hasServiceAccessPoint, as illustrated in the final example in the section [Multiplicity/Cardinality in the Audubon Core Structure document](structure.md#3-multiplicity-and-cardinality).
+These terms are representation-dependent metadata, referring to specific digital representations of a resource (e.g., a specific resolution, quality, or format). They are used within whatever a particular AC implementation assigns to the value of hasServiceAccessPoint, whose label is simply "Service Access Point." Note that it is possible for an implementation to use syntactic conventions that avoid direct use of hasServiceAccessPoint, as illustrated in the final example in the section [Multiplicity/Cardinality in the Audubon Core Structure document](./structure#3-multiplicity-and-cardinality).
 
 | property | value |
 |----------|-------|

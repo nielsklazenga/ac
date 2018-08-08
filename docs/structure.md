@@ -1,4 +1,4 @@
----
+terms---
 layout: page
 title: Audubon Core Structure
 permalink: /structure
@@ -90,7 +90,7 @@ following as they apply to the Audubon Core:
     implementers of this normative specification. It could be as simple
     as "gracefully ignore".
 
-In the [Audubon Core Term List](termlist), every AC
+In the [Audubon Core Term List](terms), every AC
 term has a *term name* following a table entry *"Term:"*, a *URI*, a
 plain text normative *Definition*, a recommended English *Label*, an
 optional *Notes* attribute. In addition, a term has an attribute telling
