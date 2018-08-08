@@ -143,7 +143,7 @@ purview of the Audubon Core. Even the providers of “Molecular DNA"
 resources sometimes will offer original data as digital images of
 microarray chips.
 
-![](guide_fig_1.png)
+![](assets/images/guide_fig_1.png)
 
 Figure 1. Relationships of Multimedia Resources to primary types of
 biodiversity resources
@@ -677,7 +677,7 @@ this standard allows mapping between them.
 
 ## 12 Appendix I: Glossary
 
-<table>
+<table class="table-responsive">
   <tbody>
     <tr class="even">
       <td>DC</td>

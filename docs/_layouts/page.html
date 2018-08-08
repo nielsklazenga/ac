@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body data-spy="scroll" data-target="#theme-sidebar-nav">
+
+    {% include header.html %}
+
+    <main class="container">
+      <div class="row">
+        <div class="col-12 col-md-3 order-md-2 theme-sidebar-primary">
+          <button class="btn d-md-none w-100" type="button" data-toggle="collapse" data-target="#theme-sidebar-nav">
+            <i class="fa fa-bars fa-lg"></i>
+          </button>
+
+          <nav class="collapse" id="theme-sidebar-nav">
+            <div id="toc">
+              {% include toc.html html=content class="nav" %}
+            </div>
+          </nav>
+        </div>
+
+        <div class="col-12 col-md-9 order-md-1 page-content">
+          <h1>{{ page.title }}</h1>
+
+          {{ content }}
+        </div>
+      </div>
+    </main>
+
+    {% include footer.html %}
+    {% include footer-scripts.html %}
+  </body>
+</html>

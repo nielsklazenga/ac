@@ -1,0 +1,21 @@
+.page-content table {
+    border: 1px solid #ddd;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+.page-content td, .page-content th {
+  padding: 5px;
+  border: 1px solid #ddd;
+}
+
+.page-content th {
+  background-color: #ddd;
+}
+
+.page-content img {
+  max-width: 100%;
+  height: auto;
+}

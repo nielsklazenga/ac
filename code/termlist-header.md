@@ -1,3 +1,9 @@
+---
+layout: page
+title: Audubon Core Term List
+permalink: /terms
+---
+
 # Audubon Core Term List
 
 For introductory material, see the **[Audubon

@@ -60,7 +60,7 @@ Audubon Core Multimedia Resources Metadata Standard (Audubon Core, or
 simply AC).
 
 **If you are unfamiliar with the Audubon Core, *please* read the
-[Audubon Core Introduction](introduction.md) before
+[Audubon Core Introduction](/) before
 reading this document.** The introduction lays out why there is perceived a need for a
 biodiversity media resource metadata schema, and how the standard
 attempts to use existing metadata standards where
@@ -70,7 +70,7 @@ For term details, see the [Audubon Core Terms List](termlist.md) document and fo
 
 During development, Audubon core was colloquially known as MRTG, after
 its developers, the GBIF-TDWG Joint Multimedia Resources Metadata Task
-Group. Please see the [Audubon Core Guide](guide.md) and
+Group. Please see the [Audubon Core Guide](guide) and
 also [MRTG Development History](http://www.keytonature.eu/wiki/MRTG_Development_History) for
 the development history in detail.
 
@@ -80,7 +80,7 @@ the development history in detail.
 Sections 2 through 4 of this document are normative except for example sections, which are labeled as non-normative.  
 
 
-## 2 Terminology of this specification</a>
+## 2 Terminology of this specification
 
 There are many ways to organize metadata specifications, particularly as
 to the nomenclature of the constituents of the metadata. Note the
@@ -277,19 +277,77 @@ properties in a new namespace.
 
 #### 3.2.1 Example of a table with each service access point in a separate row (non-normative)
 
-|                                            |                   |                |                    |                                                 |
-| ------------------------------------------ | ----------------- | -------------- | ------------------ | ----------------------------------------------- |
-| **dcterms:identifier**                     | **dcterms:title** | **ac:variant** | **dcterms:format** | **ac:accessURI**                                |
-| http://example.com/pictures/thePicture.jpg | A red beech leaf  | Best Quality   | jpg                | http://example.com/fullres/thePicture.jpg       |
-| http://example.com/pictures/thePicture.jpg |                   | Best Quality   | png                | http://example.com/fullres/thePicture-hires.png |
-| http://example.com/pictures/thePicture.jpg |                   | Thumbnail      | png                | http://example.com/thumbs/thePicture-thumb.png  |
+<table class="table-responsive">
+  <tbody>
+    <tr>
+      <td><strong>dcterms:identifier</strong></td>
+      <td><strong>dcterms:title</strong></td>
+      <td><strong>ac:variant</strong></td>
+      <td><strong>dcterms:format</strong></td>
+      <td><strong>ac:accessURI</strong></td>
+    </tr>
+    <tr>
+      <td>http://example.com/pictures/thePicture.jpg</td>
+      <td>A red beech leaf</td>
+      <td>Best Quality</td>
+      <td>jpg</td>
+      <td>http://example.com/fullres/thePicture.jpg</td>
+    </tr>
+    <tr>
+      <td>http://example.com/pictures/thePicture.jpg</td>
+      <td>&nbsp;</td>
+      <td>Best Quality</td>
+      <td>png</td>
+      <td>http://example.com/fullres/thePicture-hires.png</td>
+    </tr>
+    <tr>
+      <td>http://example.com/pictures/thePicture.jpg</td>
+      <td>&nbsp;</td>
+      <td>Thumbnail</td>
+      <td>png</td>
+      <td>http://example.com/thumbs/thePicture-thumb.png</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 3.2.2 Example of a table with metadata for all service access points in the same row (non-normative)
 
-|                                       |                   |                                     |                         |                             |                              |                              |                           |                               |                                |                              |                           |                               |                                |
-| ------------------------------------- | ----------------- | ----------------------------------- | ----------------------- | --------------------------- | ---------------------------- | ---------------------------- | ------------------------- | ----------------------------- | ------------------------------ | ---------------------------- | ------------------------- | ----------------------------- | ------------------------------ |
-| **dcterms:identifier**                | **dcterms:title** | **acf:thumbnailAccessURI**          | **acf:thumbnailFormat** | **acf:thumbnailImageWidth** | **acf:thumbnailImageHeight** | **acf:goodQualityAccessURI** | **acf:goodQualityFormat** | **acf:goodQualityImageWidth** | **acf:goodQualityImageHeight** | **acf:bestQualityAccessURI** | **acf:bestQualityFormat** | **acf:bestQualityImageWidth** | **acf:bestQualityImageHeight** |
-| http://ex.com/pictures/thePicture.jpg | A red beech leaf  | http://example.com/thumb/thePic.jpg | image/jpeg              | 100                         | 100                          | http://ex.com/img/thePic.jpg | image/jpeg                | 1000                          | 1000                           | http://ex.com/hr/thePic.png  | image/png\</nowiki\>      | 10000                         | 10000                          |
+<table class="table-responsive">
+  <tbody>
+    <tr>
+      <td><strong>dcterms:identifier</strong></td>
+      <td><strong>dcterms:title</strong></td>
+      <td><strong>acf:thumbnailAccessURI</strong></td>
+      <td><strong>acf:thumbnailFormat</strong></td>
+      <td><strong>acf:thumbnailImageWidth</strong></td>
+      <td><strong>acf:thumbnailImageHeight</strong></td>
+      <td><strong>acf:goodQualityAccessURI</strong></td>
+      <td><strong>acf:goodQualityFormat</strong></td>
+      <td><strong>acf:goodQualityImageWidth</strong></td>
+      <td><strong>acf:goodQualityImageHeight</strong></td>
+      <td><strong>acf:bestQualityAccessURI</strong></td>
+      <td><strong>acf:bestQualityFormat</strong></td>
+      <td><strong>acf:bestQualityImageWidth</strong></td>
+      <td><strong>acf:bestQualityImageHeight</strong></td>
+    </tr>
+    <tr>
+      <td>http://ex.com/pictures/thePicture.jpg</td>
+      <td>A red beech leaf</td>
+      <td>http://example.com/thumb/thePic.jpg</td>
+      <td>image/jpeg</td>
+      <td>100</td>
+      <td>100</td>
+      <td>http://ex.com/img/thePic.jpg</td>
+      <td>image/jpeg</td>
+      <td>1000</td>
+      <td>1000</td>
+      <td>http://ex.com/hr/thePic.png</td>
+      <td>image/png&lt;/nowiki&gt;</td>
+      <td>10000</td>
+      <td>10000</td>
+    </tr>
+  </tbody>
+</table>
 
 Note: acf: (for "Audubon Core Flat") is a made-up namespace.  Communities of interest might mint such terms in order to use this kind of structure.
 
