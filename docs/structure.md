@@ -1,4 +1,4 @@
-terms---
+./termsterms---
 layout: page
 title: Audubon Core Structure
 permalink: /structure
@@ -26,7 +26,7 @@ concerns as the management of the media and collections, descriptions of
 their content, their taxonomic, geographic, and temporal coverage, and
 the appropriate ways to retrieve, attribute and reproduce them. This
 document contains material introductory to the **[Audubon Core Term
-List](termlist)**
+List](./terms)**
 
 **Contributors:** Robert A. Morris, Vijay Barve, Mihail Carausu, Vishwas
 Chavan, José Cuadra, Chris Freeland, Gregor Hagedorn, Patrick Leary,
@@ -49,11 +49,11 @@ biodiversity media resource metadata schema, and how the standard
 attempts to use existing metadata standards where
 possible.
 
-For term details, see the [Audubon Core Terms List](termlist) document and for a more detailed guide to the use of Audubon Core, see the [Audubon Core Guide](guide) document.
+For term details, see the [Audubon Core Terms List](./terms) document and for a more detailed guide to the use of Audubon Core, see the [Audubon Core Guide](./guide) document.
 
 During development, Audubon core was colloquially known as MRTG, after
 its developers, the GBIF-TDWG Joint Multimedia Resources Metadata Task
-Group. Please see the [Audubon Core Guide](guide) and
+Group. Please see the [Audubon Core Guide](./guide) and
 also [MRTG Development History](http://www.keytonature.eu/wiki/MRTG_Development_History) for
 the development history in detail.
 
@@ -76,7 +76,7 @@ following as they apply to the Audubon Core:
     that will not collide with the AC defined Subtype values.
   - An AC *record* is a set of terms with any values conforming to this
     document, and which contain at least the four mandatory terms
-    described in the [Audubon Core Core Term List](termlist), and
+    described in the [Audubon Core Core Term List](./terms), and
     which describes a single multimedia resource (possibly including a
     Collection). One of these, the value of *Identifier* is a Globally
     Unique IDentifier (GUID), which may have been assigned to the
@@ -161,20 +161,20 @@ Core this situation occurs, for example, in the following cases:
 
   - The language-dependent metadata like title, description, etc. need
     to be associated with ac:metadataLanguage. One approach here is to
-    use complete Audubon Core records together with the [Metadata Language](termlist#ac_metadataLanguage)
+    use complete Audubon Core records together with the [Metadata Language](./terms#ac_metadataLanguage)
     property; see there for further detail.
   - The values of properties about a Service Access Point must remain
     associated with that Service Access Point even if there are multiple
     Service Access Points. See
-    [hasServiceAccessPoint](termlist#ac_hasServiceAccessPoint)
+    [hasServiceAccessPoint](./terms#ac_hasServiceAccessPoint)
     for further details.
   - The terms dwc:scientificName and dwc:identificationQualifier may
     optionally be structured into pairs. (See the notes on
-    [dwc:identificationQualifier](termlist#dwc_identificationQualifier).)
+    [dwc:identificationQualifier](./terms#dwc_identificationQualifier).)
   - The terms
-    [Reviewer](termlist#ac_reviewer),
+    [Reviewer](./terms#ac_reviewer),
     being the name of an individual providing some expert review of a
-    resource, and the review text itself in [Reviewer Comments](termlist#ac_reviewerComments)
+    resource, and the review text itself in [Reviewer Comments](./terms#ac_reviewerComments)
     are desirable to store as pairs.
 
 
@@ -185,7 +185,7 @@ deal with repeated terms unambiguously. In XML, we might define
 a container element and use a nesting structure as in Section 3.2.  Alternatively, in XML we may reference access points by identifier as in Section 3.3.  Where such structures are impossible or undesirable, an alternative
 solution is to permit only one access point per
 container element, but to repeat the container element for a single media resource, as shown in section 3.4. This is similar
-to one of the options discussed for multilingual metadata (see [Metadata Language](termlist#ac_metadataLanguage)).
+to one of the options discussed for multilingual metadata (see [Metadata Language](./terms#ac_metadataLanguage)).
 
 
 #### 3.1.1 Nested XML structure example (non-normative)
@@ -253,7 +253,7 @@ as unnecessary.
 
 Another approach also eliminates the need for the ac:hasServiceAccessPoint property when
 flattening the ac structure. It is based on introducing new terms
-exploiting values of the [ac:variantLiteral](termlist#ac_variantLiteral):
+exploiting values of the [ac:variantLiteral](./terms#ac_variantLiteral):
 "Thumbnail", "Trailer", "Lower Quality", "Medium Quality", "Good
 Quality", "Best Quality", "Offline", as prefixes for additional
 properties in a new namespace.
