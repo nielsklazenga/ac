@@ -1,4 +1,4 @@
-./termsterms---
+---
 layout: page
 title: Audubon Core Structure
 permalink: /structure
