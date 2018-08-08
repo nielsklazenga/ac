@@ -26,7 +26,7 @@ concerns as the management of the media and collections, descriptions of
 their content, their taxonomic, geographic, and temporal coverage, and
 the appropriate ways to retrieve, attribute and reproduce them. This
 document contains material introductory to the **[Audubon Core Term
-List](termlist | relative_url)**
+List](termlist)**
 
 **Contributors:** Robert A. Morris, Vijay Barve, Mihail Carausu, Vishwas
 Chavan, José Cuadra, Chris Freeland, Gregor Hagedorn, Patrick Leary,
@@ -43,17 +43,17 @@ Audubon Core Multimedia Resources Metadata Standard (Audubon Core, or
 simply AC).
 
 **If you are unfamiliar with the Audubon Core, *please* read the
-[Audubon Core Introduction](/ | relative_url) before
+[Audubon Core Introduction](./) before
 reading this document.** The introduction lays out why there is perceived a need for a
 biodiversity media resource metadata schema, and how the standard
 attempts to use existing metadata standards where
 possible.
 
-For term details, see the [Audubon Core Terms List](termlist | relative_url) document and for a more detailed guide to the use of Audubon Core, see the [Audubon Core Guide](guide | relative_url) document.
+For term details, see the [Audubon Core Terms List](termlist) document and for a more detailed guide to the use of Audubon Core, see the [Audubon Core Guide](guide) document.
 
 During development, Audubon core was colloquially known as MRTG, after
 its developers, the GBIF-TDWG Joint Multimedia Resources Metadata Task
-Group. Please see the [Audubon Core Guide](guide | relative_url) and
+Group. Please see the [Audubon Core Guide](guide) and
 also [MRTG Development History](http://www.keytonature.eu/wiki/MRTG_Development_History) for
 the development history in detail.
 
@@ -76,7 +76,7 @@ following as they apply to the Audubon Core:
     that will not collide with the AC defined Subtype values.
   - An AC *record* is a set of terms with any values conforming to this
     document, and which contain at least the four mandatory terms
-    described in the [Audubon Core Core Term List](termlist | relative_url), and
+    described in the [Audubon Core Core Term List](termlist), and
     which describes a single multimedia resource (possibly including a
     Collection). One of these, the value of *Identifier* is a Globally
     Unique IDentifier (GUID), which may have been assigned to the
@@ -90,7 +90,7 @@ following as they apply to the Audubon Core:
     implementers of this normative specification. It could be as simple
     as "gracefully ignore".
 
-In the [Audubon Core Term List](termlist | relative_url), every AC
+In the [Audubon Core Term List](termlist), every AC
 term has a *term name* following a table entry *"Term:"*, a *URI*, a
 plain text normative *Definition*, a recommended English *Label*, an
 optional *Notes* attribute. In addition, a term has an attribute telling
@@ -161,20 +161,20 @@ Core this situation occurs, for example, in the following cases:
 
   - The language-dependent metadata like title, description, etc. need
     to be associated with ac:metadataLanguage. One approach here is to
-    use complete Audubon Core records together with the [Metadata Language](termlist#ac_metadataLanguage | relative_url)
+    use complete Audubon Core records together with the [Metadata Language](termlist#ac_metadataLanguage)
     property; see there for further detail.
   - The values of properties about a Service Access Point must remain
     associated with that Service Access Point even if there are multiple
     Service Access Points. See
-    [hasServiceAccessPoint](termlist#ac_hasServiceAccessPoint | relative_url)
+    [hasServiceAccessPoint](termlist#ac_hasServiceAccessPoint)
     for further details.
   - The terms dwc:scientificName and dwc:identificationQualifier may
     optionally be structured into pairs. (See the notes on
-    [dwc:identificationQualifier](termlist#dwc_identificationQualifier | relative_url).)
+    [dwc:identificationQualifier](termlist#dwc_identificationQualifier).)
   - The terms
-    [Reviewer](termlist#ac_reviewer | relative_url),
+    [Reviewer](termlist#ac_reviewer),
     being the name of an individual providing some expert review of a
-    resource, and the review text itself in [Reviewer Comments](termlist#ac_reviewerComments | relative_url)
+    resource, and the review text itself in [Reviewer Comments](termlist#ac_reviewerComments)
     are desirable to store as pairs.
 
 
@@ -185,7 +185,7 @@ deal with repeated terms unambiguously. In XML, we might define
 a container element and use a nesting structure as in Section 3.2.  Alternatively, in XML we may reference access points by identifier as in Section 3.3.  Where such structures are impossible or undesirable, an alternative
 solution is to permit only one access point per
 container element, but to repeat the container element for a single media resource, as shown in section 3.4. This is similar
-to one of the options discussed for multilingual metadata (see [Metadata Language](termlist#ac_metadataLanguage | relative_url)).
+to one of the options discussed for multilingual metadata (see [Metadata Language](termlist#ac_metadataLanguage)).
 
 
 #### 3.1.1 Nested XML structure example (non-normative)
@@ -253,7 +253,7 @@ as unnecessary.
 
 Another approach also eliminates the need for the ac:hasServiceAccessPoint property when
 flattening the ac structure. It is based on introducing new terms
-exploiting values of the [ac:variantLiteral](termlist#ac_variantLiteral | relative_url):
+exploiting values of the [ac:variantLiteral](termlist#ac_variantLiteral):
 "Thumbnail", "Trailer", "Lower Quality", "Medium Quality", "Good
 Quality", "Best Quality", "Offline", as prefixes for additional
 properties in a new namespace.
