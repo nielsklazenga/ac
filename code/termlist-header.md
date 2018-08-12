@@ -4,8 +4,6 @@ title: Audubon Core Term List
 permalink: /terms
 ---
 
-# Audubon Core Term List
-
 For introductory material, see the **[Audubon
 Core Introduction](introduction.md)** and **[Audubon Core
 Structure](structure.md)** documents.
@@ -45,50 +43,6 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 **Creator:** GBIF/TDWG Multimedia Resources Task Group
 
 **Bibliographic citation:** Multimedia Resources Task Group. 2013. Audubon Core Term List. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/termlist/
-
-## Table of Contents
-
-[1 Introduction](#1-introduction)
-
-[1.1 Status of the content of this document](#11-status-of-the-content-of-this-document)
-
-[1.2 Categories of terms](#12-categories-of-terms)
-
-[2 Borrowed Vocabulary](#2-borrowed-vocabulary)
-
-[3 Namespaces, Prefixes and Term Names](#3-namespaces-prefixes-and-term-names)
-
-[4 Layers](#4-layers)
-
-[5 Literal- vs. URI-valued Terms](#5-literal--vs-uri-valued-terms)
-
-[6 Vocabulary Indices](#6-vocabulary-indices)
-
-[6.1 Index By Term Name](#61-index-by-term-name)
-
-[6.2 Index By Label](#62-index-by-label)
-
-[7 Vocabularies](#7-vocabularies)
-
-[7.1 Management Vocabulary](#71-management-vocabulary)
-
-[7.2 Attribution Vocabulary](#72-attribution-vocabulary)
-
-[7.3 Agents Vocabulary](#73-agents-vocabulary)
-
-[7.4 Content Coverage Vocabulary](#74-content-coverage-vocabulary)
-
-[7.5 Geography Vocabulary](#75-geography-vocabulary)
-
-[7.6 Temporal Coverage Vocabulary](#76-temporal-coverage-vocabulary)
-
-[7.7 Taxonomic Coverage Vocabulary](#77-taxonomic-coverage-vocabulary)
-
-[7.8 Resource Creation Vocabulary](#78-resource-creation-vocabulary)
-
-[7.9 Related Resources Vocabulary](#79-related-resources-vocabulary)
-
-[7.10 Service Access Point Vocabulary](#710-service-access-point-vocabulary)
 
 
 ## 1 Introduction
